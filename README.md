@@ -4,7 +4,7 @@
 Forecast bus demand (final seat count) 15 days before journey.
 
 ## 🏗️ Architecture
-![Architecture](images/architecture.png)
+![Architecture](Images/architecture.png)
 
 ## ⚙️ Tech Stack
 - Databricks
