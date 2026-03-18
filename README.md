@@ -92,7 +92,7 @@ Four categories of features were engineered to capture demand signals:
 
 ### 🗺️ Region-wise Demand
 
-![Region Demand](Images/Region demand)
+![Region Demand](Images/Regiondemand)
 
 **Key Insight:** Tamil Nadu (2.57K) and Karnataka (2.43K) are the top demand regions, together accounting for a disproportionate share of total volume. South India dominates — TN, Karnataka, Kerala, and AP collectively outperform the rest of the country. Northern regions (Delhi, Rest of North) lag significantly, indicating untapped growth markets or structural supply gaps.
 
