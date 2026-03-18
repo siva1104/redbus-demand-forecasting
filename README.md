@@ -27,7 +27,7 @@ RedBus operates thousands of routes across India. The ability to predict demand 
 
 ## 🏗️ Architecture
 
-![Architecture](architecture.png)
+![Architecture](Images/architecture.png)
 
 The pipeline follows the **Medallion Architecture** (Bronze → Silver → Gold), moving raw S3 data through progressive transformation stages into ML-ready features — all orchestrated automatically via Databricks Jobs.
 
@@ -84,7 +84,7 @@ Four categories of features were engineered to capture demand signals:
 
 ### 📅 Day-of-Week Demand Trend
 
-![Day of Week](Screenshot_2026-03-17_234528.png)
+![Day of Week](Images/Screenshot 2026-03-17 234528.png)
 
 **Key Insight:** Sunday drives the highest demand (2.66K), followed by Friday (2.4K) and Saturday (2.27K). Weekends command ~33% more demand than the midweek trough (Tuesday: 1.78K). This pattern suggests a strong leisure/weekend travel behaviour — a direct trigger for weekend surge pricing and pre-emptive fleet scaling.
 
@@ -92,7 +92,7 @@ Four categories of features were engineered to capture demand signals:
 
 ### 🗺️ Region-wise Demand
 
-![Region Demand](Screenshot_2026-03-17_234541.png)
+![Region Demand](Images/Screenshot 2026-03-17 234541.png)
 
 **Key Insight:** Tamil Nadu (2.57K) and Karnataka (2.43K) are the top demand regions, together accounting for a disproportionate share of total volume. South India dominates — TN, Karnataka, Kerala, and AP collectively outperform the rest of the country. Northern regions (Delhi, Rest of North) lag significantly, indicating untapped growth markets or structural supply gaps.
 
@@ -100,7 +100,7 @@ Four categories of features were engineered to capture demand signals:
 
 ### 📦 Demand Distribution
 
-![Demand Distribution](Screenshot_2026-03-17_234608.png)
+![Demand Distribution](Images/Screenshot 2026-03-17 234608.png)
 
 **Key Insight:** Demand follows a strong right-skewed distribution. The 1,000–2,000 seat-count range dominates (~3,400 records), with very few routes exceeding 5,000 seats. This means the model must handle a long tail carefully — log-transformation or quantile-based approaches would help reduce RMSE on high-demand outlier routes.
 
@@ -108,7 +108,7 @@ Four categories of features were engineered to capture demand signals:
 
 ### 🏙️ Tier-to-Tier Demand
 
-![Tier to Tier](Screenshot_2026-03-17_234616.png)
+![Tier to Tier](Images/Screenshot 2026-03-17 234616.png)
 
 **Key Insight:** **Tier 2 → Tier 4** is the single highest-demand corridor (3.48K) — surpassing even Tier 1 → Tier 1 (2.38K). This is a counter-intuitive and commercially important finding: smaller city pairs drive enormous volume, likely due to limited alternative transport. Tier 2 origin cities are systematically underserved despite being high-demand sources. Prioritising Tier 2 routes is the highest-ROI expansion strategy.
 
