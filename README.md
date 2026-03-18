@@ -100,7 +100,7 @@ Four categories of features were engineered to capture demand signals:
 
 ### 📦 Demand Distribution
 
-![Demand Distribution](Images/Screenshot_2026-03-17_234608.png)
+![Demand Distribution](Images/Screenshot_2026-03-17 234608.png)
 
 **Key Insight:** Demand follows a strong right-skewed distribution. The 1,000–2,000 seat-count range dominates (~3,400 records), with very few routes exceeding 5,000 seats. This means the model must handle a long tail carefully — log-transformation or quantile-based approaches would help reduce RMSE on high-demand outlier routes.
 
