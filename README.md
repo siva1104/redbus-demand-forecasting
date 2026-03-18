@@ -84,7 +84,7 @@ Four categories of features were engineered to capture demand signals:
 
 ### 📅 Day-of-Week Demand Trend
 
-![Day of Week](Images/Screenshot_2026-03-17_234528.png)
+![Day of Week](Images/Screenshot_2026-03-17234528.png)
 
 **Key Insight:** Sunday drives the highest demand (2.66K), followed by Friday (2.4K) and Saturday (2.27K). Weekends command ~33% more demand than the midweek trough (Tuesday: 1.78K). This pattern suggests a strong leisure/weekend travel behaviour — a direct trigger for weekend surge pricing and pre-emptive fleet scaling.
 
