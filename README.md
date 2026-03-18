@@ -84,7 +84,7 @@ Four categories of features were engineered to capture demand signals:
 
 ### 📅 Day-of-Week Demand Trend
 
-![Day of Week](Images/Day of Week)
+![Day of Week](Images/Week)
 
 **Key Insight:** Sunday drives the highest demand (2.66K), followed by Friday (2.4K) and Saturday (2.27K). Weekends command ~33% more demand than the midweek trough (Tuesday: 1.78K). This pattern suggests a strong leisure/weekend travel behaviour — a direct trigger for weekend surge pricing and pre-emptive fleet scaling.
 
@@ -92,7 +92,7 @@ Four categories of features were engineered to capture demand signals:
 
 ### 🗺️ Region-wise Demand
 
-![Region Demand](Images/Regiondemand)
+![Region Demand](Images/Region)
 
 **Key Insight:** Tamil Nadu (2.57K) and Karnataka (2.43K) are the top demand regions, together accounting for a disproportionate share of total volume. South India dominates — TN, Karnataka, Kerala, and AP collectively outperform the rest of the country. Northern regions (Delhi, Rest of North) lag significantly, indicating untapped growth markets or structural supply gaps.
 
